@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.smarttravel.view.SummaryFragment">
+
+    <TextView
+        android:id="@+id/busDetailTV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Timings" />
+
+    <TextView
+        android:id="@+id/timingTV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Route/Important Stops" />
+
+    <TextView
+        android:id="@+id/routesTV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
