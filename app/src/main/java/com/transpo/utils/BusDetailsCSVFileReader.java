@@ -1,6 +1,8 @@
-package com.smarttravel.utils;
+package com.transpo.utils;
 
-import com.smarttravel.model.BusDetailInfo;
+import android.content.Context;
+
+import com.transpo.model.BusDetailInfo;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -17,7 +19,7 @@ public class BusDetailsCSVFileReader {
 
     InputStream inputStream;
 
-    public BusDetailsCSVFileReader(InputStream inputStream) {
+    public BusDetailsCSVFileReader(Context mContext, InputStream inputStream) {
         this.inputStream = inputStream;
     }
 

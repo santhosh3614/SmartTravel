@@ -1,4 +1,4 @@
-package com.smarttravel.utils;
+package com.transpo.utils;
 
 /**
  * Created by Santhosh on 3/18/2017.

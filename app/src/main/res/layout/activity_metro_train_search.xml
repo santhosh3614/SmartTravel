@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.transpo.view.BusLocationActivity">
+    tools:context="com.transpo.view.MmtsTrainSearchActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -51,6 +51,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="10dp"
-        android:text="search" />
+        android:text="Search Train" />
 
 </LinearLayout>

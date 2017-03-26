@@ -7,4 +7,4 @@
     android:background="#E1FEFF"
     android:paddingBottom="16dp"
     android:paddingTop="16dp"
-    tools:context="com.smarttravel.view.MainActivity" />
+    tools:context="com.transpo.view.MainActivity" />

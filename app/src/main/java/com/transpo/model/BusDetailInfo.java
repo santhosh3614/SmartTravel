@@ -1,4 +1,4 @@
-package com.smarttravel.model;
+package com.transpo.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -9,7 +9,6 @@ import java.util.List;
 /**
  * Created by Santhosh on 3/19/2017.
  */
-
 public class BusDetailInfo implements Parcelable {
 
     private String busName;

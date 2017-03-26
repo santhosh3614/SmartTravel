@@ -1,6 +1,4 @@
 <resources>
-    <string name="app_name">SmartTravel</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name">TransPo</string>
+    <string name="google_maps_key">AIzaSyDfJ1atoD271m7DJ-SuzFzhGQ7Dl_H4x4w</string>
 </resources>

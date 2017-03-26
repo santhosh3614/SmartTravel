@@ -1,4 +1,4 @@
-package com.smarttravel;
+package com.transpo;
 
 import org.junit.Test;
 

@@ -4,7 +4,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
     defaultConfig {
-        applicationId "com.smarttravel"
+        applicationId "com.transpo"
         minSdkVersion 15
         targetSdkVersion 25
         versionCode 1
@@ -28,5 +28,6 @@ dependencies {
     compile 'com.android.support:design:25.2.0'
     compile 'com.android.support:support-v4:25.2.0'
     compile 'com.google.android.gms:play-services-maps:10.2.0'
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-beta5'
     testCompile 'junit:junit:4.12'
 }

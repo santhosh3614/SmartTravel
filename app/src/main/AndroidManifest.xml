@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.smarttravel">
+    package="com.transpo">
 
     <application
         android:allowBackup="true"
@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".view.MainActivity">
+
+        <activity android:name="com.transpo.view.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,9 +18,25 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".view.BusLocationActivity"
-            android:parentActivityName=".view.MainActivity" />
-        <activity android:name=".view.BusDetailsActivity"></activity>
+            android:name="com.transpo.view.BusLocationActivity"
+            android:parentActivityName="com.transpo.view.MainActivity" />
+        <activity android:name="com.transpo.view.BusDetailsActivity" />
+        <activity
+            android:name="com.transpo.view.BusListActivity"
+            android:parentActivityName="com.transpo.view.BusLocationActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <!-- The API key for Google Maps-based APIs. -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity android:name="com.transpo.view.MmtsTrainSearchActivity" />
+        <activity android:name="com.transpo.view.MetroTrainListActivity" />
+
     </application>
 
 </manifest>

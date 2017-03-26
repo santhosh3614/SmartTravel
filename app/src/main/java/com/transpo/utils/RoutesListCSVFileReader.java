@@ -1,4 +1,4 @@
-package com.smarttravel.utils;
+package com.transpo.utils;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -13,7 +13,7 @@ import java.util.List;
 
 public class RoutesListCSVFileReader {
 
-    InputStream inputStream;
+    private InputStream inputStream;
 
     public RoutesListCSVFileReader(InputStream inputStream) {
         this.inputStream = inputStream;
